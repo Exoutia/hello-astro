@@ -1,24 +1,26 @@
 ---
 import Navigation from "./Navigation.astro";
+import Hamburger from "./Hamburger.astro";
 ---
 
 <header>
-    <nav>
-        <span>Bibek Jha | Exoutia</span>
-        <Navigation />
-    </nav>
+  <nav>
+    <span>Bibek Jha | Exoutia</span>
+    <Hamburger />
+    <Navigation />
+  </nav>
 </header>
 
 <style>
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    nav span {
-        font-size: 2em;
-        color: black;
-    }
+  nav span {
+    font-size: 2em;
+    color: black;
+  }
 </style>
